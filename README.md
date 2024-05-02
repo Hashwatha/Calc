@@ -24,6 +24,9 @@ Validate the HTML and CSS code.
 ### Step 6:
 Publish the website in the given URL.
 
+
+
+
 ## PROGRAM :
 
 ```
@@ -71,14 +74,9 @@ Register Number: 212223240051
                 expression = expression + cmd;
             }
             res.innerText = expression;
-            
-
         }
-         
         </script>
-
         <style>
-          
             .calculator-container {
                 width: 400px;
                 background-color:rgb(177, 27, 79);
@@ -87,8 +85,6 @@ Register Number: 212223240051
                 text-align: center;
                 
             }
-
-           
             button {
                 width: 50px;
                 height: 50px;
@@ -99,10 +95,7 @@ Register Number: 212223240051
                 color: black (255, 255, 255); 
                 border: none;
             }
-
-          
-            #result {
-                
+            #result {  
        background-color:rgb(82, 204, 116);
     text-align: right;
     padding-right: 50px;
@@ -115,7 +108,6 @@ Register Number: 212223240051
     display: flex;
     align-items: center;
     justify-content: flex-end;
-
             }
             h1 {
                 padding-top: 10px;
@@ -136,13 +128,11 @@ Register Number: 212223240051
                 background-color: rgb(123, 188, 196)
             }
         </style>
-
     </head>
 <body bgcolor="skyblue">
     <h1 align="center">M.Hashwatha</h1>
     <h2 align="center">212223240051</h2>
-    <div class="calculator-container">
-        
+    <div class="calculator-container">       
         <div id="result">0</div>
         <button onclick="calculate(event);">7</button>
         <button onclick="calculate(event);">8</button>
@@ -169,7 +159,10 @@ Register Number: 212223240051
 </html>
 ```
 ## OUTPUT:
+
 ![alt text](<Screenshot 2024-05-02 180821.png>)
+
 ![alt text](<Screenshot 2024-05-02 180835.png>)
+
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
